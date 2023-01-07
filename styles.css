@@ -136,25 +136,29 @@ nav li{
     background-repeat: no-repeat;
     width: 1140px;
     height: 300px;
+    padding: 50px 50px;
     /* background-position: center;
     background-blend-mode:lighten; */
     /* position: relative; */
-    text-align: center;
+    /* text-align: center; */
     margin: 70px auto;
     /* margin-left: auto;
     margin-right: auto; */
     /* display: block; */
 }
-.gradient-image{
-    /* margin-left: auto;
-    margin-right: auto;
-    display: block; */
-}
+
 .gradient-description{
-    position: absolute;
-    padding: 50px;
-    color: rgb(243, 238, 238);
-    font-size: 20px;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.btn-secondary{
+    border: none;
+    border-radius: 8px;
+    color: rgb(216, 96, 53);
+    font-size: 15px;
+    font-weight: 600;
+    gap: 10px;
 }
 
 /* Footer styles */
