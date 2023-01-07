@@ -42,12 +42,14 @@
     justify-content:space-around;
 }
 .section-title{
-    font-size: 50px;   
+    font-size: 50px;
+    margin-right: 100px;
 }
 .section-description{
     font-size: 20px;
     color: rgb(110, 106, 106);
     list-style: none;
+    padding-left: 20px;
 }
 div ul{
     list-style: disc;
@@ -81,7 +83,7 @@ nav ul{
 }
 nav li{
     list-style: none;
-    margin-right: 130px;
+    margin-right: 90px;
     box-shadow: aliceblue;
 }
 .plan-head{
@@ -94,23 +96,25 @@ nav li{
 
 /* About me section */
 .about {
-    margin-top: 130px;
+    margin: 80px 0 80px 320px;
     background-color: #fff8f3;
     border-radius: 10px;
-    padding: 130px 150px;
+    padding: 50px 0;
     text-align: center;
+    height: 300px;
+    width: 1140px;
 }
 
 .section-title {
     margin-bottom: 30px;
     text-align: center;
+    padding-left: 50px;
 }
 
 .section-description {
     color: #757575;
     font-size: 18px;
     margin-bottom: 30px;
-
 }
 
 .about-info-container {
@@ -136,15 +140,14 @@ nav li{
     background-repeat: no-repeat;
     width: 1140px;
     height: 300px;
-    padding: 50px 50px;
-    /* background-position: center;
-    background-blend-mode:lighten; */
-    /* position: relative; */
-    /* text-align: center; */
+    padding: 40px 50px;
     margin: 70px auto;
-    /* margin-left: auto;
-    margin-right: auto; */
-    /* display: block; */
+    /* background-position: center;
+    background-blend-mode:lighten;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; */
 }
 
 .gradient-description{
@@ -156,9 +159,11 @@ nav li{
     border: none;
     border-radius: 8px;
     color: rgb(216, 96, 53);
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
     gap: 10px;
+    height: 50px;
+    width: 200px;
 }
 
 /* Footer styles */
@@ -191,6 +196,7 @@ nav li{
 .subscribe{
     font-size: 30px;
     font-weight: 600;
+    padding-top: 30px;
 }
 .btn-subscribe{
     margin-top: 30px;
