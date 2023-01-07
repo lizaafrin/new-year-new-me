@@ -34,18 +34,23 @@
 .sections{
     height: 1250px; width: 1880px;
 }
+
+/* Failure Section */
+
 .failures{
     display: flex;
     justify-content:space-around;
-    
 }
 .section-title{
-    font-size: 50px;
-    
+    font-size: 50px;   
 }
 .section-description{
     font-size: 20px;
     color: rgb(110, 106, 106);
+    list-style: none;
+}
+div ul{
+    list-style: disc;
 }
 
 .failure-picture{
@@ -55,6 +60,9 @@
     padding-right: 300px;
     padding-top: 200px;
 }
+
+/* Plan section */
+
 .plan-title{
     text-align: center;
     padding-top: 100px;
@@ -64,15 +72,17 @@
 .plan-description{
     display: flex;
     justify-content: center;
-    font-size: 25;
+    font-size: 25;    
 }
 nav ul{
     display: flex;
     text-align: center;
+    list-style: none;
 }
 nav li{
     list-style: none;
     margin-right: 130px;
+    box-shadow: aliceblue;
 }
 .plan-head{
     font-size: 30px;
@@ -80,4 +90,68 @@ nav li{
 }
 .plan-body{
     font-size: 25px;
+}
+
+/* Gradient section */
+.gradient{
+    margin-top: 100px;
+    background-image: url(images/watch.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode:lighten;
+    position: relative;
+    text-align: center;
+}
+.gradient-image{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.gradient-description{
+    position: absolute;
+    padding-top: 100px;
+    color: white;
+}
+/* Footer styles */
+.footer{
+    background-color: black;
+    color: aliceblue;
+    height: 577px;
+    margin-top: 100px;
+    display: flex;
+    gap: 200px;
+    padding-top: 100px;
+}
+.footer-title{
+    font-size: 50px;
+    font-weight: 800;
+}
+.footer-description{
+    font-size: 25px;
+    font-weight: 400;
+}
+.future{
+    padding-left: 400px;
+}
+.contacts{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.contacts nav ul{
+    padding: 0;
+}
+.subscribe{
+    font-size: 30px;
+    font-weight: 600;
+}
+.btn-subscribe{
+    margin-top: 30px;
+    color: white;
+    border-radius: 5px;
+    background-color: #ee3211;
+    font-size: 30px;
+    font-weight: 600;
+    border: none;
+
 }
